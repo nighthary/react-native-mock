@@ -28,6 +28,9 @@ const AppRegistry = {
   unmountApplicationComponentAtRootTag(rootTag) {
 
   },
+  setWrapperComponentProvider(fn){
+    return null
+  }
 };
 
 module.exports = AppRegistry;

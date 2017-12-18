@@ -18,6 +18,7 @@ const NativeModules = {
   LinkingManager: require('./LinkingManager'),
   TimePickerAndroid: require('./TimePickerAndroid'),
   Vibration: require('./Vibration'),
+  ExportGetUserInfo: require('./ExportGetUserInfo')
 };
 
 module.exports = NativeModules;

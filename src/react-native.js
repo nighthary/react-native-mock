@@ -102,6 +102,11 @@ const ReactNative = {
   PointPropType: require('./propTypes/PointPropType'),
   NavigationExperimental: require('./Libraries/NavigationExperimental'),
   ViewPropTypes: require('./propTypes/ViewPropTypes'),
+  I18nManager: {
+    isRTL: false,
+    allowRTL: () => {},
+    forceRTL: () => {}
+  }
 };
 
 

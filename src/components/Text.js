@@ -46,10 +46,20 @@ class Text extends React.Component {
   }
 
   mixins = [NativeMethodsMixin]
-
+    
   render() {
     return null;
   }
+}
+
+Text.propTypes = {
+    numberOfLines: PropTypes.number,
+    onLayout: PropTypes.func,
+    onPress: PropTypes.func,
+    suppressHighlighting: PropTypes.bool,
+    style: stylePropType,
+    testID: PropTypes.string,
+    allowFontScaling: PropTypes.bool,
 }
 
 module.exports = Text;
